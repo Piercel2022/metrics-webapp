@@ -33,7 +33,7 @@ const containerVariants = {
   },
 };
 
-const CardList = ({ stocks, data }) => {
+function CardList({ stocks, data }) {
   const loading = useSelector(({ loadingReducer }) => loadingReducer.loading);
 
   if (loading) return <Spinner />;
@@ -60,7 +60,7 @@ const CardList = ({ stocks, data }) => {
       </List>
     </motion.div>
   );
-};
+}
 
 CardList.propTypes = {
   stocks: PropTypes.arrayOf(PropTypes.shape({

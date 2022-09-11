@@ -13,11 +13,11 @@ const AppContainer = styled.div`
     padding: 0 250px;
   }
 `;
-const App = () => {
+
+function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchStocks());
-    // eslint-disable-next-line
   }, []);
 
   return (
@@ -30,6 +30,6 @@ const App = () => {
       </AnimatePresence>
     </AppContainer>
   );
-};
+}
 
 export default App;

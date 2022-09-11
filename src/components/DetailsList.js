@@ -80,7 +80,7 @@ const containerVariants = {
   },
 };
 
-const DetailsList = ({ details }) => {
+function DetailsList({ details }) {
   const loading = useSelector(({ loadingReducer }) => loadingReducer.loading);
 
   if (loading) return <Spinner />;
@@ -123,7 +123,7 @@ const DetailsList = ({ details }) => {
         : <NoRecord>No records found</NoRecord>}
     </motion.div>
   );
-};
+}
 
 DetailsList.propTypes = {
   details: PropTypes.arrayOf(PropTypes.shape({

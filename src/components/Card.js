@@ -43,9 +43,9 @@ const Container = styled.div`
       }
     }
 `;
-const Card = ({
+function Card({
   id, ticker, changes, price, changesPercentage, companyName,
-}) => {
+}) {
   const navigate = useNavigate();
 
   return (
@@ -67,13 +67,13 @@ const Card = ({
           {changes}
         </span>
         <span>
-          <BsArrowDown color="red" />
+          <BsArrowDown color="7cfc00" />
           {changesPercentage}
         </span>
       </div>
     </Container>
   );
-};
+}
 
 Card.propTypes = {
   id: PropTypes.string.isRequired,

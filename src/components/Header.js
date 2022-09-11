@@ -34,27 +34,29 @@ const containerVariants = {
   },
 };
 
-const Header = ({ home }) => (
-  <motion.div variants={containerVariants} initial="hidden" animate="visible">
-    <NavBar data-testid="nav">
-      {!home && (
+function Header({ home }) {
+  return (
+    <motion.div variants={containerVariants} initial="hidden" animate="visible">
+      <NavBar data-testid="nav">
+        {!home && (
         <NavLink to="/">
           <IoIosArrowBack size="25px" color="#fff" />
         </NavLink>
-      )}
-      <div>
-        <h3>{home ? 'Stock Metrics' : 'Company Details'}</h3>
-      </div>
-      <div data-testid="icons">
-        <span><BsFillMicFill size="17px" color="#fff" /></span>
-        <span>
-          {' '}
-          <IoIosSettings size="17px" color="#fff" />
-        </span>
-      </div>
-    </NavBar>
-  </motion.div>
-);
+        )}
+        <div>
+          <h3>{home ? 'Stock Metrics' : 'Company Details'}</h3>
+        </div>
+        <div data-testid="icons">
+          <span><BsFillMicFill size="17px" color="#fff" /></span>
+          <span>
+            {' '}
+            <IoIosSettings size="17px" color="#fff" />
+          </span>
+        </div>
+      </NavBar>
+    </motion.div>
+  );
+}
 
 Header.propTypes = {
   home: PropTypes.bool.isRequired,

@@ -11,7 +11,7 @@ const initDetailsState = {
 const initialLoading = { loading: false };
 
 // reducer for fetching all companies stock listing
-export const stocksReducer = (state = initStockState, { type, payload }) => {
+export const stocksReducer = (state = initStockState, { type, payload } = {}) => {
   switch (type) {
     case Actions.ALLSTOCKS_RETRIEVED:
       return { stocks: [...payload] };
@@ -21,7 +21,7 @@ export const stocksReducer = (state = initStockState, { type, payload }) => {
 };
 
 // reducer for fetching single company's stock listing
-export const detailsReducer = (state = initDetailsState, { type, payload }) => {
+export const detailsReducer = (state = initDetailsState, { type, payload } = {}) => {
   switch (type) {
     case Actions.SINGLESTOCK_RETRIEVED:
       return { details: [...payload] };
@@ -31,7 +31,7 @@ export const detailsReducer = (state = initDetailsState, { type, payload }) => {
 };
 
 // the reducer function for the loaders
-export const loadingReducer = (state = initialLoading, { type, payload }) => {
+export const loadingReducer = (state = initialLoading, { type, payload } = {}) => {
   switch (type) {
     case Actions.LOADING_STARTED:
       return { ...state, loading: payload };

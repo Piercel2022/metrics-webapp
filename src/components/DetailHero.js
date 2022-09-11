@@ -28,33 +28,35 @@ const Section = styled.section`
   }
 `;
 
-const DetailHero = ({
+function DetailHero({
   text, revenue, profit, expenses,
-}) => (
-  <Section>
-    <motion.div>
-      <h2>{text.toUpperCase()}</h2>
-      <p>INCOME STATEMENT</p>
-      <div>
-        <span>
-          Total Revenue:
-          {revenue}
-          billion
-        </span>
-        <span>
-          Total Profit:
-          {profit}
-          billion
-        </span>
-        <span>
-          Total Expenses:
-          {expenses}
-          billion
-        </span>
-      </div>
-    </motion.div>
-  </Section>
-);
+}) {
+  return (
+    <Section>
+      <motion.div>
+        <h2>{text.toUpperCase()}</h2>
+        <p>INCOME STATEMENT</p>
+        <div>
+          <span>
+            Total Revenue:
+            {revenue}
+            billion
+          </span>
+          <span>
+            Total Profit:
+            {profit}
+            billion
+          </span>
+          <span>
+            Total Expenses:
+            {expenses}
+            billion
+          </span>
+        </div>
+      </motion.div>
+    </Section>
+  );
+}
 
 DetailHero.propTypes = {
   text: PropTypes.string.isRequired,

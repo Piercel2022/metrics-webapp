@@ -6,7 +6,7 @@ import Hero from '../Hero';
 import SearchBar from '../SearchBar';
 import CardList from '../CardList';
 
-const Home = () => {
+function Home() {
   const stocks = useSelector(({ stocksReducer }) => stocksReducer.stocks);
   const [value, setValue] = useState('');
 
@@ -22,6 +22,6 @@ const Home = () => {
       <CardList stocks={stocks} data={value} />
     </>
   );
-};
+}
 
 export default Home;

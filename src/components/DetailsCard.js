@@ -6,21 +6,23 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
-const DetailsCard = ({
+function DetailsCard({
   children, first, second, third,
-}) => (
-  <Container>
-    <span data-testid="first">{first}</span>
-    <span data-testid="second">
-      {children?.[0]}
-      {second}
-    </span>
-    <span data-testid="third">
-      {children?.[1]}
-      {third}
-    </span>
-  </Container>
-);
+}) {
+  return (
+    <Container>
+      <span data-testid="first">{first}</span>
+      <span data-testid="second">
+        {children?.[0]}
+        {second}
+      </span>
+      <span data-testid="third">
+        {children?.[1]}
+        {third}
+      </span>
+    </Container>
+  );
+}
 
 DetailsCard.propTypes = {
   first: PropTypes.oneOfType([

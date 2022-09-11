@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^7.3.2",
     "prop-types": "^15.8.1",
@@ -15,6 +14,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "recharts": "^2.1.14",
+    "redux": "^4.2.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
     "styled-components": "^5.3.5",
@@ -43,5 +43,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-prefer-function-component": "^3.0.0",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.2.0"
   }
 }

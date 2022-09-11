@@ -37,24 +37,26 @@ const Section = styled.section`
   }
 `;
 
-const Hero = ({ text, stocks }) => (
-  <Section>
-    <motion.div>
-      <h2>{text}</h2>
-      <div data-testid="hero-details">
-        <span>{`$${sumPrices(stocks)}`}</span>
-        <span>
-          <BsArrowUp color="#7cfc00" />
-          {`+${sumPercent(stocks)}`}
-        </span>
-        <span>
-          <BsArrowDown color="red" />
-          {`-${sumChanges(stocks)}`}
-        </span>
-      </div>
-    </motion.div>
-  </Section>
-);
+function Hero({ text, stocks }) {
+  return (
+    <Section>
+      <motion.div>
+        <h2>{text}</h2>
+        <div data-testid="hero-details">
+          <span>{`$${sumPrices(stocks)}`}</span>
+          <span>
+            <BsArrowUp color="#7cfc00" />
+            {`+${sumPercent(stocks)}`}
+          </span>
+          <span>
+            <BsArrowDown color="red" />
+            {`-${sumChanges(stocks)}`}
+          </span>
+        </div>
+      </motion.div>
+    </Section>
+  );
+}
 
 Hero.propTypes = {
   text: PropTypes.string.isRequired,

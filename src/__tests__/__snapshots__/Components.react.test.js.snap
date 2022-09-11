@@ -3,7 +3,7 @@
 exports[`Card should render component 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bdvvtL iEoqFp"
+    class="sc-bczRLJ lcGRed"
   >
     <div
       data-testid="company"
@@ -37,7 +37,7 @@ exports[`Card should render component 1`] = `
       </span>
       <span>
         <svg
-          color=""
+          color="7cfc00"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -55,12 +55,11 @@ exports[`Card should render component 1`] = `
       </span>
       <span>
         <svg
-          color="red"
+          color="7cfc00"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
           stroke-width="0"
-          style="color: red;"
           viewBox="0 0 16 16"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +79,7 @@ exports[`Card should render component 1`] = `
 exports[`Details Card should render component correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gsDKAQ gFZcdC"
+    class="sc-gsnTZi crCdMa"
   >
     <span
       data-testid="first"
@@ -107,7 +106,7 @@ exports[`Header should render component correctly 1`] = `
     style="transform: translateY(-100px) translateZ(0);"
   >
     <header
-      class="sc-dkPtRN hWmQBZ"
+      class="sc-dkzDqf hbEgYW"
       data-testid="nav"
     >
       <div>
@@ -122,12 +121,12 @@ exports[`Header should render component correctly 1`] = `
           <svg
             color="#fff"
             fill="currentColor"
-            height="18px"
+            height="17px"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 16 16"
-            width="18px"
+            width="17px"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -143,12 +142,12 @@ exports[`Header should render component correctly 1`] = `
           <svg
             color="#fff"
             fill="currentColor"
-            height="18px"
+            height="17px"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 512 512"
-            width="18px"
+            width="17px"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -165,7 +164,7 @@ exports[`Header should render component correctly 1`] = `
 exports[`Hero should render correctly 1`] = `
 <DocumentFragment>
   <section
-    class="sc-hKwDye fAEQSA"
+    class="sc-hKMtZM cHhneZ"
   >
     <div>
       <h2 />
@@ -177,12 +176,12 @@ exports[`Hero should render correctly 1`] = `
         </span>
         <span>
           <svg
-            color="green"
+            color="#7cfc00"
             fill="currentColor"
             height="1em"
             stroke="currentColor"
             stroke-width="0"
-            style="color: green;"
+            style="color: rgb(124, 252, 0);"
             viewBox="0 0 16 16"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +221,7 @@ exports[`Hero should render correctly 1`] = `
 exports[`SearchBar should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-eCImPb fJCjGA"
+    class="sc-eCYdqJ fVCDFJ"
   >
     <input
       placeholder="Search..."

@@ -21,8 +21,8 @@ left: 50%;
 z-index: -1;
 `;
 
-const Spinner = () => (
-  <Loader />
-);
+function Spinner() {
+  return <Loader />;
+}
 
 export default Spinner;

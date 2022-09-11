@@ -35,7 +35,7 @@ const Topic = styled.div`
   }
 `;
 
-const Details = () => {
+function Details() {
   const dispatch = useDispatch();
   const stocks = useSelector(({ stocksReducer }) => stocksReducer.stocks);
   const details = useSelector(({ detailsReducer }) => detailsReducer.details);
@@ -71,6 +71,6 @@ const Details = () => {
       {showModal && <Modal details={details} handleModal={handleModal} />}
     </>
   );
-};
+}
 
 export default Details;
