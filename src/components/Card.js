@@ -67,7 +67,7 @@ function Card({
           {changes}
         </span>
         <span>
-          <BsArrowDown color="7cfc00" />
+          <BsArrowDown color="red" />
           {changesPercentage}
         </span>
       </div>

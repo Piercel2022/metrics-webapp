@@ -55,11 +55,12 @@ exports[`Card should render component 1`] = `
       </span>
       <span>
         <svg
-          color="7cfc00"
+          color="red"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
           stroke-width="0"
+          style="color: red;"
           viewBox="0 0 16 16"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
@@ -221,10 +222,10 @@ exports[`Hero should render correctly 1`] = `
 exports[`SearchBar should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-eCYdqJ fVCDFJ"
+    class="sc-eCYdqJ gpHwLB"
   >
     <input
-      placeholder="Search..."
+      placeholder="Search your company..."
       type="search"
       value=""
     />

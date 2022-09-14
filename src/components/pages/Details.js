@@ -46,7 +46,8 @@ function Details() {
 
   useEffect(() => {
     dispatch(fetchDetails(param.id));
-  }, [param]);
+    // eslint-disable-next-line
+  }, [dispatch, param]);
 
   const revenue = sumRevenue(details);
   const profit = sumProfit(details);

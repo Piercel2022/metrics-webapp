@@ -13,12 +13,12 @@ const AppContainer = styled.div`
     padding: 0 250px;
   }
 `;
-
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchStocks());
-  }, []);
+    // eslint-disable-next-line
+  }, [dispatch]);
 
   return (
     <AppContainer>

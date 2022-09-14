@@ -82,9 +82,9 @@ const Modal = ({ details, handleModal }) => {
           </ResponsiveContainer>
         </div>
       </Backdrop>
+
     ), document.body,
-  )
-  );
+  ));
 };
 
 export default Modal;
