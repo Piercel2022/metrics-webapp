@@ -64,7 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- (Nelson Sakwa)https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs on Behance whose design template was used for this project.
+- [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-Free-PSDs) on Behance whose design template was used for this project.
 
 
 ## 📝 License
