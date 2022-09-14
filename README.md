@@ -21,6 +21,8 @@ Then change to the repository:
 cd metrics-webapp
 ```
 Finally A Linter for REACT & REDUX
+## LINK TO THE VIDEO
+https://www.loom.com/share/4002ecc19ecf4f1ba3774aeab06f2fe0
 
 ## LIVE DEMO
 https://metrics2022.netlify.app/
@@ -38,6 +40,11 @@ Finally
 ```
 npm start
 ```
+Finally to run the test:
+```
+npm test
+```
+
 ## Author
 
 - GitHub: (https://github.com/Piercel2022)
