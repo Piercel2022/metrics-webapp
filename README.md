@@ -64,7 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Nelson Sakwa on Behance
+- Nelson Sakwa on Behance whose design template was used for this project.
 
 
 ## 📝 License
