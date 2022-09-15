@@ -2,6 +2,9 @@
 # metrics-webapp
 This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I create making use of React and Redux.This is Financial Modeling Prep, the most accurate financial data API
 
+![Stock-data](https://user-images.githubusercontent.com/98626003/190352403-02c49e5f-84ba-495e-a267-33733dae9255.png)
+
+
 ## Built With
 
 
