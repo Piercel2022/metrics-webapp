@@ -1,6 +1,6 @@
 
 # metrics-webapp
-This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I create making use of React and Redux.This is Financial Modeling Prep, the most accurate financial data API
+Web metrics is a dynamic and interactive user interface created with react build with  the most accurate financial data API, that show a user data from differents companies. Financial Modeling Prep is a new concept that informs the user about stock markets information (news, currencies and stock prices) about many organizations. The web application showcase all the financial details from revenue, profit to expenses in many years.
 
 ![Stock-data](https://user-images.githubusercontent.com/98626003/190352403-02c49e5f-84ba-495e-a267-33733dae9255.png)
 
